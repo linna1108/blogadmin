@@ -1,0 +1,38 @@
+.postList{
+    flex: 4;
+}
+
+.postListItem{
+    display: flex;
+    align-items: center;
+}
+
+.postListImg {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+    padding: 5px;
+  }
+
+.postListDetail{
+    cursor: pointer;
+    color: #3bb077;
+    margin-top: 20px;
+    margin-left: 10px;    
+}
+
+.postListDelete{
+    color: red;
+    cursor: pointer;
+}
+.postAddButton{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkblue;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 15px;
+  }
